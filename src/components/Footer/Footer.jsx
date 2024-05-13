@@ -5,9 +5,10 @@ function Footer() {
   return (
     <div className="footer">
       <p>
-        The website is developed for educational purposes by
+         The website is developed for educational purposes only by
         <a href="https://www.linkedin.com/in/nataliia-zablotska/">
-          Natalie Zablotska. All information is entirely fictional.
+          {" "}
+          <u>Natalie Zablotska</u>
         </a>
       </p>
       <ul>
