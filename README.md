@@ -2,6 +2,7 @@
 # Education Website
 
 This is an educational website template for showcasing institutions or programmes, built with React and Vite. It offers a minimal setup and includes some ESLint rules for maintaining code quality.
+![Educational-Website](https://github.com/nataliiazab/education/tree/main/src/assets/educational-website.PNG)
 
 
 ## How to Use
