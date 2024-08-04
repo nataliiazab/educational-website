@@ -19,7 +19,9 @@ const App = () => {
       <Hero />
       <div className="container">
         <Title subTitle="Our Programmes" title="What We Offer" />
-        <Programs />
+        <div id="programs">
+          <Programs />
+        </div>
         <About setPlayState={setPlayState} />
         <Title subTitle="Gallery" title="Campus Life" />
         <Campus />
@@ -27,8 +29,8 @@ const App = () => {
         <Testimonials />
         <Title subTitle="Contact Us" title="Get In Touch" />
         <Contact />
-        <Footer />
       </div>
+      <Footer />
       <VideoPlayer playState={playState} setPlayState={setPlayState} />
     </div>
   );

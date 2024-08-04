@@ -5,17 +5,13 @@ function Footer() {
   return (
     <div className="footer">
       <p>
-         The website is developed for educational purposes only by
+        This website is created and maintained by
         <a href="https://www.linkedin.com/in/nataliia-zablotska/">
           {" "}
-          <u>Natalie Zablotska</u>
-        </a>
+          <u>Nataliia Zablotska</u>
+        </a>{" "}
+        . It is designed as a template for portfolio.
       </p>
-      <ul>
-        {" "}
-        <li>Terms of Services</li>
-        <li>Privacy Policy</li>
-      </ul>
     </div>
   );
 }
